@@ -1,0 +1,26 @@
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  header {
+    
+}
+
+header img {
+    width: 80px; 
+    height: 60px; /* Hauteur fixe pour éviter la déformation */
+    object-fit: contain; /* Assurer que l'image ne soit pas déformée */
+}
+
+
+
+
+
+body {
+    background-image: linear-gradient(rgba(57, 13, 10, 0.6), rgba(57, 13, 10, 0.6)), url(https://images.ctfassets.net/s5n2t79q9icq/1RJfBURhOuSJba5feByRzk/f8352755ec2b3a015dd82568d74dba4c/Hsnfvfty23lnf0-1920x1040.jpg);
+}
+

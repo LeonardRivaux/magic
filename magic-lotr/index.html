@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "fr" >
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Magic the Gathering</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+        
+    <header>
+        <img src = 'logo.png' >
+        <navbar>
+            <a href="Produits.html">Produits</a>
+            <a href="Regarder.html">Regarder</a>
+            <a href="Jouer.html">Jouer</a>
+            <a href="Histoire.html">Histoire</a>
+            <a href="Articles.html">Articles</a>
+        </navbar>
+    </header>
+
+
+    <body>
+
+        <img src = 'magicthegathering.png' >
+
+        <div class="grid-container" id="grid-container">
+            <template id="card-template">
+                <div class="card">
+                    <img class="card-img">
+                    <p>{{texte}}</p>
+                </div>
+            </template>
+        </div>
+    </body>
+
+
+<script src="script.js" defer></script>
+
+</html>
