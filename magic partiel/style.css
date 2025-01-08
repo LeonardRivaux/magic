@@ -1,0 +1,79 @@
+
+
+/* Général */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Lato", sans-serif;
+    background-image: linear-gradient(rgba(57, 13, 10, 0.6), rgba(57, 13, 10, 0.6)), 
+        url('https://images.ctfassets.net/s5n2t79q9icq/1RJfBURhOuSJba5feByRzk/f8352755ec2b3a015dd82568d74dba4c/Hsnfvfty23lnf0-1920x1040.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header */
+header {
+    background-color: black;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+header img {
+    width: 130px;
+    height: auto;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 1em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ea3601;
+}
+
+/* Main container */
+main {
+    width: 75%; /* 75% de la largeur de la page */
+    margin: 15px auto; /* Centré horizontalement avec une marge supérieure de 15px */
+    justify-content: center; /* Contenu centré horizontalement */
+}
+
+/* Grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Grille de 4 colonnes */
+    gap: 15px; /* Espacement entre les lignes et colonnes */
+}
+
+/* Cards */
+.card {
+    text-align: center; /* Contenu centré dans chaque carte */
+}
+
+.card-img {
+    height: 320px; /* Hauteur fixe */
+    border-radius: 10px; /* Bordure arrondie */
+    object-fit: cover; /* S'assure que l'image garde ses proportions */
+    width: 100%; /* Prend toute la largeur disponible */
+}
+
+/* Paragraph style */
+.card p {
+    color: antiquewhite; /* Couleur antique white */
+    font-weight: 500; /* Graisse égale à 500 */
+}
